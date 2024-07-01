@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
    name:vprodb
    labels:
-     app:vprodb
+     app: vprodb
 spec:
   selector:
      matchLabels:
